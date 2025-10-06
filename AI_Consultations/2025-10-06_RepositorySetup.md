@@ -1845,7 +1845,6 @@ You now have:
 The nested Core submodule is **completely transparent** to users - Git handles it automatically with the `--recursive` flag!
 
 And the number **999** (binary `0000011110110111`) perfectly represents the completion of your three-engine journey! 🎯✨
-```
 
 ---
 
