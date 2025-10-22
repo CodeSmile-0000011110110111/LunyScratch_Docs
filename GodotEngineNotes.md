@@ -5,7 +5,6 @@ Observations, complaints, niceties.
 
 ## Godot 4.5
 
-
 ### Pros
 
 - The little "reset to default value" circles in Inspector are welcome!
@@ -75,18 +74,3 @@ Observations, complaints, niceties.
 - Limitations
 - Renderscale doesn't go lower than 0.25
 - Physics doesn't support scaled collision shapes! You have to fiddle with shape sizes, and do so every time the visual mesh scale changes. 
-
-### Personal Opinion
-
-## Unreal 5.6
-
-### Pros
-### Cons
-### Personal Opinion
-
-
-## Unity 6.0
-
-### Pros
-### Cons
-### Personal Opinion
