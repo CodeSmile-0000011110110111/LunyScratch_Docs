@@ -11,8 +11,15 @@ Observations, complaints, niceties.
 - UX
 - you work on a grid by default, so very welcome!
 - live-editing blueprints while in playmode, yeah!
+- looks good out of the box
 
 ### Cons
+
+- CRASH!!! Lots and lots of crashes, with loss of data :(
+  - ie edit some blueprint values while in playmode => prone to crash
+  - change a light? change a sound? change a setting? crash, crash, crash
+  - change a blueprint's base class? crash! (known issue since 2016 => won't fix)
+  - data isn't saved until you "save all", including newly imported assets!! => Unreal trains you to save, save, save ...
 
 - UX
 - Launcher and dialog windows pop up in the background, including things like "Do you want to .. ?  YES/NO" which is confusing if that dialog is not shown to me.
@@ -23,6 +30,9 @@ Observations, complaints, niceties.
 - Lost imported assets due to another instance of the project having been launched, and stuck at the "previous import failed" (or similar) message which caused all meshes to lose their textures.
 - Shift+F1 to "free the mouse" is such an awkward hotkey - and it cannot be changed!!
 - Save All means "save all, no questions asked" but in Unreal it means: okay, which of these files do you wish NOT to be saved? Darn ...
+- Lighting/visual tweaks: it takes 10+ seconds for lighting to adapt to new settings, and on every change it resets to the base level as the camera slowly adapts to the current lighting level (camera exposure or whatever). Perhaps possible to adjust but not the default.
+- Content editing is the least intuitive among Godot and Unity.
+- empty scene (with terrain) takes ~20 seconds to save
 
 - Assets
 - drag and drop of folder with contents opens up an import dialog where you can change settings, rather than allowing me to do that after the fact
